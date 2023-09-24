@@ -1,0 +1,110 @@
+[
+
+ {
+
+   "id": "ID-1",
+
+   "text": "I am writing to express my dissatisfaction with the product I\npurchased from your website. The product is a wireless keyboard that was\nadvertised as compatible with all devices and having a long battery life.\nHowever, when I received the p"
+
+ }
+
+
+
+
+
+
+[
+
+ {
+
+   "id": "ID-1",
+
+   "sentiment": "negative",
+
+   "confidenceScores": {
+
+     "positive": 0,
+
+     "neutral": 0.02,
+
+     "negative": 0.97
+
+   },
+
+   "sentences": [
+
+     {
+
+       "sentiment": "negative",
+
+       "confidenceScores": {
+
+         "positive": 0,
+
+         "neutral": 0.02,
+
+         "negative": 0.97
+
+       },
+
+       "offset": 0,
+
+       "length": 91,
+
+       "text": "I am writing to express my dissatisfaction with the product I purchased from your website. "
+
+     },
+
+     {
+
+       "sentiment": "neutral",
+
+       "confidenceScores": {
+
+         "positive": 0.03,
+
+         "neutral": 0.96,
+
+         "negative": 0.01
+
+       },
+
+       "offset": 91,
+
+       "length": 118,
+
+       "text": "The product is a wireless keyboard that was advertised as compatible with all devices and having a long battery life. "
+
+     },
+
+     {
+
+       "sentiment": "neutral",
+
+       "confidenceScores": {
+
+         "positive": 0.04,
+
+         "neutral": 0.92,
+
+         "negative": 0.04
+
+       },
+
+       "offset": 209,
+
+       "length": 30,
+
+       "text": "However, when I received the p"
+
+     }
+
+   ],
+
+   "warnings": []
+
+ }
+
+]
+
+ 
