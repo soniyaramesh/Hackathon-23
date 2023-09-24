@@ -2,17 +2,10 @@
 
 startsWith(toLower(outputs('Html_to_text')['body']), toLower('Hi '))
 
- 
-
-
 #SILICING THE STRING
 
 slice(body('Html_to_text'), add(indexOf(body('Html_to_text'), ','), 2))
 
- 
-
 # the variable to move the email to respective folder based on Sentiment analysis output
-
-
 
 if(equals(outputs('Compose'), true), first(outputs('Sentiment_(V3.0)')?['body/documents'])['sentiment'], first(outputs('Sentiment_(V3.0)_2')['body/documents'])['sentiment'])
